@@ -1,1 +1,17 @@
+title: Echoes of code
+email: r01010010@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Personal development blog
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: R01010_
+github_username:  r01010010
+
+# Build settings
+markdown: kramdown
 theme: jekyll-theme-hacker
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
